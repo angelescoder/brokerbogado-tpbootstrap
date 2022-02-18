@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    background-image: linear-gradient(rgb(120, 190, 144), white);
+    color: gray;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;  
+}
+/* menu */
+header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(120, 190, 144);
+}
+header nav{
+    float: inline-end;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin-left: 70%; 
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;  
+}
+header span{
+    text-transform: capitalize;
+}
+.pag{
+    background-color: gray;
+    padding:5px;
+} 
+/* footer  */
+.final{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(120, 190, 144);
+}
+.ley{
+    padding: 20px;
+    text-align: center;
+    text-transform: lowercase;
+    color: whitesmoke;
+    font-size: 20px;  
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.redes1{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.dir{
+    margin-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;   
+}
+.fiscal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
